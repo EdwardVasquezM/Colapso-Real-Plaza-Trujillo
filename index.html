@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Interactiva: Colapso Real Plaza Trujillo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        body {
+            font-family: 'Inter', sans-serif; /* Aplicar fuente Inter */
+            background-color: #f0f4f8; /* Fondo suave */
+        }
+        .slide {
+            display: none; /* Ocultar todas las diapositivas por defecto */
+            min-height: 70vh; /* Altura mínima para el contenido */
+            padding: 2rem;
+            background-color: white;
+            border-radius: 0.75rem; /* Esquinas redondeadas */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            transition: opacity 0.5s ease-in-out; /* Transición suave */
+            opacity: 1;
+        }
+        .slide.active {
+            display: block; /* Mostrar la diapositiva activa */
+        }
+        .slide-title {
+            font-size: 1.875rem; /* Tamaño de fuente para títulos */
+            font-weight: 700; /* Negrita */
+            color: #1e3a8a; /* Azul oscuro */
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .slide-content ul {
+            list-style-type: disc; /* Estilo de lista */
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .slide-content li {
+            margin-bottom: 0.75rem;
+            color: #374151; /* Gris oscuro */
+        }
+        .interaction-question {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #e0f2fe; /* Fondo azul claro */
+            border-left: 4px solid #0ea5e9; /* Borde izquierdo azul */
+            border-radius: 0.375rem;
+            font-style: italic;
+            color: #0c4a6e; /* Azul más oscuro */
+        }
+        .nav-button {
+            padding: 0.75rem 1.5rem;
+            background-color: #1e3a8a; /* Azul oscuro */
+            color: white;
+            border: none;
+            border-radius: 0.5rem; /* Esquinas redondeadas */
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .nav-button:hover {
+            background-color: #1e40af; /* Azul más oscuro al pasar el ratón */
+        }
+        .nav-button:disabled {
+            background-color: #9ca3af; /* Gris para botón deshabilitado */
+            cursor: not-allowed;
+        }
+        .image-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 400px; /* Ancho máximo de la imagen */
+            height: 200px;
+            background-color: #e5e7eb; /* Fondo gris claro */
+            color: #6b7280; /* Texto gris */
+            border-radius: 0.5rem;
+            margin: 1rem auto; /* Centrar imagen */
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto">
+
+        <div id="presentation-container">
+
+            
+<div class="slide active" id="slide-1">
+    <h2 class="slide-title">Del Colapso a la Prevención: <br>" Análisis Técnico y Propuestas Normativas tras el Fallo Estructural en Real Plaza Trujillo"</h2>
+    <div class="slide-content">
+        <p class="mb-4 text-gray-700">
+            Dado los últimos acontecimientos fatales ocurridos en el Real Plaza de Trujillo, no solo considero que debemos lamentarnos por las pérdidas humanas y materiales, sino que es nuestro deber, como profesionales de la ingeniería, generar propuestas que contribuyan a prevenir hechos similares en el futuro. Esta presentación nace desde esa convicción: ofrecer una reflexión técnica y abrir el espacio para la discusión sobre la urgente necesidad de revisar y fortalecer nuestras normas nacionales de diseño estructural.
+        </p>
+        <p class="mb-4 text-gray-700">
+            El objetivo que me impulsa como profesional es claro: promover la incorporación explícita del concepto de <strong>falla dúctil</strong> como criterio fundamental en el diseño de las estructuras. Diseñar para ductilidad no es solo una elección técnica, sino una exigencia ética, pues permite que las estructuras disipen energía (mediante mecanismos como la plastificación de aceros o rotulaciones en zonas críticas) y se deformen antes de colapsar, brindando tiempo para la intervención, el mantenimiento o la evacuación, y evitando fallas frágiles, repentinas y sin aviso.
+        </p>
+        <p class="mb-4 text-gray-700">
+            En este contexto, es importante precisar que la <strong>seguridad estructural</strong> abarca más que la resistencia física de los elementos; involucra la gestión integral del riesgo, considerando incertidumbres en las cargas (sísmicas, dinámicas, sobrecargas), materiales (variabilidad en propiedades mecánicas), procesos constructivos (calidad de ejecución) y mantenimiento. Dentro de ella, la <strong>integridad estructural</strong> es uno de los pilares fundamentales: se refiere a la capacidad de la estructura para mantener su función sin daños críticos bajo las condiciones previstas de operación (ej. grietas controladas en vigas, sin comprometer su capacidad portante).
+        </p>
+        <p class="mb-4 text-gray-700">
+            Debemos asegurar que estos principios no queden solo como buenas intenciones, sino que estén claramente definidos y exigidos en nuestras normas de diseño nacionales(RNE), siguiendo ejemplos internacionales (Eurocódigo, ACI). Esto permitirá que sean la guía que oriente el trabajo de todo proyectista, calculista, constructor y supervisor. Porque la <strong>seguridad estructural</strong> es responsabilidad de todos los actores involucrados, y la <strong>integridad de las estructuras</strong> es la base técnica para alcanzarla.
+        </p>
+        <p class="font-semibold text-gray-800">
+            <div class="interaction-question">
+                <p><strong>Diseñar pensando en la vida, con criterios claros de seguridad e integridad estructural, es el punto de partida para construir un futuro más seguro y ético en la ingeniería.</p>
+            </div>
+    
+    </div>
+</div>
+            <div class="slide" id="slide-2">
+                <h2 class="slide-title">Colapso en Real Plaza Trujillo:<br>
+                     ¿Qué nos Enseña sobre la Seguridad Estructural?</h2>
+                <div class="slide-content">
+                    <!-- Slide 1: Imagen Real Plaza Trujillo -->
+                    <img src="1 Colapso en REal plaza Trujillo.jpeg" alt="Imagen de techo Colapsado en Real Plaza Trujillo"  class="w-full h-auto mx-auto block">
+                    <p class="mb-4 text-gray-700">Dado los últimos acontecimientos de la Real Plaza de Trujillo, es importante en el Perú que las normas nacionales peruanas expresen en forma explícita y clara la necesidad del diseño dúctil para el diseño de estructuras, de tal forma que el diseñador lo tenga presente y se eviten los problemas de fallas catastróficas frágiles. Este enfoque de diseño debe ser de carácter obligatorio en estructuras de importancia 1.</p>
+                    <p class="font-semibold text-gray-800">Contexto:</p>
+                    <p class="text-gray-700">Breve mención del evento en Real Plaza Trujillo y su relevancia en el contexto peruano. Énfasis en la falla frágil y repentina.</p>
+                    <div class="interaction-question">
+                        <p><strong>Pregunta:</strong> <br>"¿Qué emociones o pensamientos les genera esta imagen? ¿Han presenciado o conocen de cerca un evento similar?"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-3">
+                <h2 class="slide-title">"Fast Track y riesgo estructural:<br> Cómo la falta de ductilidad y accesibilidad llevaron al colapso</h2>
+                    
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Puntos Claves (basados en información preliminar):</p>
+                    <ul>
+                        <li>El colapso no ha sido por sismo.</li>
+                        <li>El colapso ha sido frágil y repentino.</li>
+                        <li>Esto sugiere que en el diseño de esta infraestructura no se consideraron conexiones dúctiles, lo que llevó a una falla frágil.</li>
+                        <li>La rapidez de los proyectos "Fast Track" (mencionada por Rivera Feijóo) puede no permitir un control de riesgo adecuado.</li>
+                        <li>Las normas técnicas deberían exigir accesibilidad para la inspección y mantenimiento.</li>
+                    </ul>
+                    <div class="interaction-question">
+                        <p><strong>Pregunta:</strong><br> "¿Consideran que la rapidez en los proyectos ('Fast Track') puede comprometer la seguridad? ¿Cómo creen que la falta de accesibilidad para inspección contribuye al riesgo?"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-4">
+                <h2 class="slide-title">Diseño Dúctil:<br> 
+                    La Clave para Evitar Fallas Catastróficas Frágiles</h2>
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Explicación Sencilla:</p>
+                    <ul>
+                        <li><strong>Falla Frágil:</strong> Ruptura súbita sin deformación previa apreciable (como romper un vidrio). Peligroso por la falta de aviso.</li>
+                        <li><strong>Falla Dúctil:</strong> Deformación significativa antes de la falla final (como doblar un metal antes de romperlo). Permite redistribución de cargas y da tiempo para evacuar o intervenir.</li>
+                    </ul>
+                    <p class="font-semibold text-gray-800 mb-2">Importancia:</p>
+                    <p class="mb-4 text-gray-700">En diseño estructural, la ductilidad permite que la estructura disipe energía (clave en sismos) y que, ante sobrecargas o eventos inesperados, no colapse repentinamente, dando un "aviso" a través de deformaciones visibles.</p>
+                    <div class="interaction-question">
+                        <p><strong>Analogía (reflexion):</strong><br> "¿Prefieren que un edificio, ante una situación extrema, se comporte como un caramelo que se quiebra de golpe o como un chicle que se estira antes de romperse? ¿Por qué?"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-5">
+                <h2 class="slide-title">La Ductilidad:<br> 
+                    En el Reglamento Nacional de Edificaciones del Perú (Norma E.030)</h2>
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Puntos Clave:</p>
+                    <ul>
+                        <li>La normativa peruana (Norma E.030 - Diseño Sismorresistente) reconoce la importancia de la ductilidad.</li>
+                        <li>Clasifica sistemas estructurales según su capacidad de disipación de energía (ductilidad) y asigna factores de reducción sísmica (R).</li>
+                        <li>Define Pórticos Especiales (SMF), Intermedios (IMF) y Ordinarios (OMF) con exigencias cualitativas de deformación inelástica (“significativa”, “limitada” o “mínima”).</li>
+                        <li>Define otros sistemas como Pórticos Concéntricos Especiales (SCBF), Ordinarios (OCBF) y Excéntricamente Arriostrados (EBF). Solo los "especiales" y EBF se consideran de alta ductilidad.</li>
+                        <li>Esta filosofía es similar a la de AISC 341 y Eurocódigo 8.</li>
+                        <li>Explicita conceptos de diseño por capacidad (ej. columna fuerte-viga débil en pórticos especiales de acero).</li>
+                        <li>La RNE aborda la ductilidad a nivel general en E.030 y espera que las normas de material (E.060 Concreto, E.090 Acero) provean detalles constructivos.</li>
+                    </ul>
+                    <div class="interaction-question">
+                        <p><strong>Pregunta:</strong> <br>"¿Conocían esta clasificación de sistemas estructurales en la norma peruana? ¿Creen que esta clasificación es suficiente para garantizar la ductilidad en todo tipo de eventos, no solo sísmicos?"</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="slide" id="slide-6">
+                <h2 class="slide-title">La Norma E.090 (Estructuras Metálicas):<br>
+                     ¿Especifica la Ductilidad?</h2>
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Puntos Clave:</p>
+                    <ul>
+                        <li>Incorpora principios de ductilidad, pero de forma menos explícita que AISC 341.</li>
+                        <li>Exige conexiones capaces de desarrollar rotaciones inelásticas adecuadas (Cap. 1).</li>
+                        <li>Para pórticos Tipo 2, pide "adecuada capacidad de rotación inelástica".</li>
+                        <li>No tiene un capítulo específico de "diseño sísmico" como AISC 341; remite a documentos extranjeros.</li>
+                        <li>La intención es lograr ductilidades equivalentes (nota al pie menciona rotación inelástica de 0.03 rad).</li>
+                        <li>En la práctica, se complementa con guías AISC.</li>
+                        <li>Existen propuestas de actualización para incluir clasificación formal de ductilidad.</li>
+                        <li><strong>Resumen:</strong> E.090 tiene criterios generales, pero carece de detalles sísmicos específicos (límites de esbeltez adicionales, tenacidad del acero, cálculos de sobrerresistencia Ω₀) presentes en normas internacionales.</li>
+                    </ul>
+                    <div class="interaction-question">
+                        <p><strong>Pregunta:</strong><br> "Si la norma E.090 remite a normas extranjeras y no detalla explícitamente los requisitos de ductilidad sísmica, ¿qué desafíos creen que esto presenta para los ingenieros proyectistas en Perú y cómo podría afectar la uniformidad en el diseño?"</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="slide" id="slide-7">
+                <h2 class="slide-title">Un Vistazo en el mundo:<br>
+                    Estándares de Diseño Dúctil en Acero</h2>
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Comparación con AISC 341 (EE.UU.) y Eurocódigo 8 (UE):</p>
+                    <ul>
+                        <li>Establecen requisitos explícitos y categorizados (Special, Intermediate, Ordinary / DCH, DCM, DCL).</li>
+                        <li>Imponen requerimientos detallados: relación columna-viga ≥ 1.2, paneles de nudo reforzados, soldaduras con tenacidad Charpy, diseño por capacidad (Ω), etc.</li>
+                        <li><strong>Equivalencia Parcial en Perú:</strong> Las categorías SMF, IMF, OMF en E.030 son conceptualmente similares.</li>
+                        <li><strong>Brecha:</strong> Los detalles para que un "pórtico especial" peruano cumpla efectivamente no están desarrollados exhaustivamente en E.090.</li>
+                        <li>AISC 341 y EC8 dedican secciones completas a requisitos específicos (soldaduras, enlaces EBF, etc.) que no aparecen explícitamente en E.090 vigente.</li>
+                        <li><strong>Concreto (E.060):</strong> EC8 exige cuantías y confinamiento según ductilidad. E.060 (2009) era menos estricta para muros en edificios bajos. Se recomienda actualizarla.</li>
+                        <li><strong>Síntesis:</strong> AISC 341 y EC8 son más detallados, pero las normas peruanas buscan principios equivalentes, aunque con menor codificación explícita.</li>
+                    </ul>
+                    <div class="interaction-question">
+                        <p><strong>Pregunta:</strong><br> "¿Qué beneficios ven en tener requisitos de diseño dúctil más detallados y explícitos en una norma nacional, como lo hacen AISC 341 y Eurocódigo 8?"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-8">
+                <h2 class="slide-title">Aprendiendo de la Tragedia:<br>
+                    Colapsos Estructurales En el mundo (No Sísmicos)</h2>
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Casos Relevantes:</p>
+               
+                    <ul>
+                        <li><strong>Supermercado Maxima (Riga, Letonia, 2013):</strong> Colapso de techo por error grave de diseño (carga subestimada). Falla frágil y progresiva por falta de redundancia. 
+                            <img src="Supermercado Maxima.jpeg" alt="Supermercado Maxima Riga" class="mx-auto rounded-lg shadow-lg my-4 max-w-full h-auto"></li>
+                        <li><strong>Pabellón de Exposiciones (Katowice, Polonia, 2006):</strong> Colapso de techo por sobrecarga de nieve y diseño incorrecto. Falla frágil por falta de ductilidad.
+                            <img src="abellón de Exposiciones en Katowice.jpeg" alt="Pabellón de Katowice" class="mx-auto rounded-lg shadow-lg my-4 max-w-full h-auto"></li>
+                        <li><strong>Pasarelas Hotel Hyatt Regency (Kansas City, EE.UU., 1981):</strong> Colapso por error de diseño/construcción en conexiones (cambio duplicó carga). Falla frágil catastrófica. 
+                            <img src="Pasarelas del Hotel Hyatt Regency.jpeg" alt="Pasarelas Hyatt Regency" class="mx-auto rounded-lg shadow-lg my-4 max-w-full h-auto"></li>
+                        <li><strong>Algo Centre Mall (Elliot Lake, Canadá, 2012):</strong> Colapso parcial por fractura por corrosión en conexión soldada (filtraciones, falta de mantenimiento). Colapso localizado pero frágil. 
+                            <img src="Algo Centre Mall.jpeg" alt="Algo Centre Mall" class="mx-auto rounded-lg shadow-lg my-4 max-w-full h-auto"</li>
+                    </ul>
+                    <div class="interaction-question">
+                        <p><strong>Pregunta:</strong> <br>"¿Identifican patrones comunes en estos colapsos más allá del caso de Real Plaza Trujillo? ¿Qué les llama más la atención de estas historias?"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-9">
+                <h2 class="slide-title">De la Tragedia a la Mejora:<br> Impacto en las Normas y Prácticas</h2>
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Lecciones Globales:</p>
+                    <ul>
+                        <li><strong>Revisión de Cargas y Factores de Seguridad:</strong> Refuerzo de normas de carga (nieve post-Katowice); reevaluación de verificaciones (Letonia post-Riga); certificación de cambios (EE.UU. post-Hyatt). En Perú, revisión de cargas de lluvia post-Real Plaza.</li>
+                        <li><strong>Ductilidad y Redundancia Universales:</strong> Énfasis en ductilidad (incluso en zonas no sísmicas post-Hyatt); incorporación de redundancia (soportes adicionales).</li>
+                        <li><strong>Inspección, Mantenimiento y Responsabilidad:</strong> Normas dinámicas; inspecciones periódicas obligatorias (Ontario post-Elliot Lake); importancia de la durabilidad (impermeabilización); factor humano (negligencia).</li>
+                    </ul>
+                     <div class="interaction-question">
+                        <p><strong>Pregunta:</strong> <br>"¿Qué medidas creen que son más urgentes de implementar en el Perú para evitar futuros colapsos similares al de Real Plaza Trujillo, considerando estas lecciones globales?"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-10">
+                <h2 class="slide-title">Reflexiones: <br>Fortaleciendo la Seguridad Estructural en Perú</h2>
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Puntos Clave:</p>
+                    <ul>
+                        <li>La normativa peruana (E.030, E.060, E.090) sí incluye requisitos de diseño dúctil.</li>
+                        <li>Establece categorías de sistemas estructurales con diferentes niveles de ductilidad, análogo a normas internacionales.</li>
+                        <li><strong>Brecha Identificada:</strong> Menor detalle explícito en comparación con AISC 341 y EC8. E.090 carece de un capítulo detallado de "detallado sísmico en acero". E.060 podría ser más rigurosa en la distinción de muros.</li>
+                        <li>Se reconoce la necesidad de actualizar E.030 y E.060.</li>
+                        <li><strong>Conclusión Principal:</strong> Las normas peruanas son equivalentes en espíritu, pero se beneficiarían de una mayor explicitación de requisitos para garantizar uniformidad y cerrar la brecha con las mejores prácticas internacionales.</li>
+                    </ul>
+                    <div class="interaction-question">
+                        <p><strong>Pregunta:</strong> <br>"¿Cómo podemos, como profesionales o ciudadanos, contribuir a cerrar estas brechas normativas y mejorar la seguridad en nuestras edificaciones? ¿Qué rol juegan las universidades, colegios profesionales y el estado?"</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="slide" id="slide-11">
+                <h2 class="slide-title">Hacia un futuro más seguro: <br>Propuestas y Compromisos</h2>
+                <div class="slide-content">
+                    <p class="font-semibold text-gray-800 mb-2">Posibles Propuestas:</p>
+                    <ul>
+                        <li>Actualización urgente de E.090 (capítulo de diseño sísmico detallado).</li>
+                        <li>Revisión de cargas de lluvia y drenaje en E.020.</li>
+                        <li>Implementar inspecciones periódicas obligatorias para estructuras relevantes.</li>
+                        <li>Fortalecer la revisión y supervisión de proyectos.</li>
+                        <li>Promover capacitación continua en diseño dúctil y patología estructural.</li>
+                        <li>Concientización pública sobre mantenimiento y seguridad.</li>
+                    </ul>
+                    <div class="interaction-question">
+                        <p><strong> Llamado a la Acción:<br>Invitación a involucrarse en discusiones técnicas, proponer mejoras normativas, promover buenas prácticas y exigir mayor rigurosidad en la construcción y supervisión..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-12">
+                <h2 class="slide-title">Conclusiones y agradecimiento</h2>
+                <div class="slide-content text-center">
+                    <!-- Mensaje principal -->
+                    <p class="mb-4 text-lg text-gray-800 font-medium">"La seguridad estructural es una responsabilidad compartida:<br> desde el diseño hasta la ejecución y mantenimiento"</p>
+                    
+                    <!-- Contacto (destacado) -->
+                    <div class="bg-gray-100 p-3 rounded-lg inline-block mt-6 mb-4">
+                        <p class="text-gray-700">
+                            <span class="font-semibold">Edward Vásquez Morales</span><br>
+                            Ingeniero Mecánico Estructural<br>
+                            <span class="text-blue-600">e_vm@yahoo.com</span>
+                        </p>
+                    </div>
+                    
+                    <!-- Llamado a la acción -->
+                    <p class="mt-6 text-gray-600 text-sm italic">
+                        "Sigamos trabajando por una ingeniería más segura y ética en el Perú"
+                    </p>
+                    
+                    <!-- Referencias (organizadas) -->
+                    <div class="mt-8 border-t pt-4">
+                        <p class="text-xs text-gray-500 uppercase font-semibold">Normativas consultadas:</p>
+                        <ul class="grid grid-cols-2 gap-2 text-xs text-gray-500 mt-2">
+                            <li>• Reglamento Nacional de Edificaciones (Perú)</li>
+                            <li>• AISC 341 (EUA - Sistemas sismorresistentes)</li>
+                            <li>• Eurocódigo 8 (Diseño sísmico)</li>
+                            <li>• ASCE/SEI 7-22 (Cargas mínimas)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-between mt-8">
+            <button id="prevBtn" class="nav-button" disabled>Anterior</button>
+            <span id="slide-counter" class="text-gray-600 self-center">Diapositiva 1 de 12</span>
+            <button id="nextBtn" class="nav-button">Siguiente</button>
+        </div>
+    </div>
+
+    <script>
+        // Lógica de JavaScript para la navegación
+        let currentSlide = 1;
+        const totalSlides = document.querySelectorAll('.slide').length;
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const slideCounter = document.getElementById('slide-counter');
+
+        function showSlide(slideNumber) {
+            // Ocultar todas las diapositivas
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+            });
+            // Mostrar la diapositiva deseada
+            const activeSlide = document.getElementById(`slide-${slideNumber}`);
+            if (activeSlide) {
+                activeSlide.classList.add('active');
+            }
+            // Actualizar contador
+            slideCounter.textContent = `Diapositiva ${slideNumber} de ${totalSlides}`;
+            // Habilitar/deshabilitar botones de navegación
+            prevBtn.disabled = slideNumber === 1;
+            nextBtn.disabled = slideNumber === totalSlides;
+        }
+
+        // Event listener para el botón Siguiente
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < totalSlides) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        });
+
+        // Event listener para el botón Anterior
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 1) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
+
+        // Inicializar la primera diapositiva
+        showSlide(currentSlide);
+    </script>
+
+</body>
+</html>

@@ -23,12 +23,6 @@ blog/
 └── Algo Centre Mall.jpeg
 ```
 
-## Cómo visualizar
-
-1. Descarga o clona este repositorio.
-2. Abre el archivo `index.html` en tu navegador.
-3. Asegúrate de mantener las imágenes en la misma carpeta `blog/` para que se visualicen correctamente.
-
 ## Publicación en GitHub Pages
 
 1. Sube el contenido de la carpeta `blog/` a tu repositorio de GitHub.
@@ -41,7 +35,5 @@ blog/
 - Presentación elaborada por Edward Vásquez Morales.
 - Imágenes con fines educativos y de análisis técnico.
 - Normativa: RNE (Perú), AISC 341, Eurocódigo 8.
-
----
 
 **¡Contribuyamos a un futuro con edificaciones más seguras!**

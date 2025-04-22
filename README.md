@@ -34,7 +34,7 @@ blog/
 1. Sube el contenido de la carpeta `blog/` a tu repositorio de GitHub.
 2. Ve a **Settings** → **Pages**.
 3. En **Source**, selecciona la rama principal y la carpeta `/ (root)` o `/blog` si lo subes como subdirectorio.
-4. Accede a tu sitio a través de `https://<usuario>.github.io/<repositorio>`.
+4. Accede a tu sitio a través de `https://EdwardVasquezM.github.io/<repositorio>`.
 
 ## Créditos
 

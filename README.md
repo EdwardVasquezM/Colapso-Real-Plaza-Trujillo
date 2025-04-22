@@ -1,39 +1,43 @@
 
-# Presentación Interactiva: Colapso Real Plaza Trujillo
+# Colapso-Real-Plaza-Trujillo
 
-Este repositorio contiene una presentación HTML interactiva sobre el colapso del techo en el centro comercial Real Plaza Trujillo (Perú), analizado desde la perspectiva del diseño estructural y las normas técnicas de ingeniería.
+## Análisis Técnico y Propuestas Normativas tras el Fallo Estructural en Real Plaza Trujillo
 
-## Contenido
+Este proyecto presenta una reflexión técnica sobre los acontecimientos ocurridos en el Real Plaza Trujillo, abordando la necesidad de fortalecer nuestras normas de diseño estructural, con énfasis en la incorporación del concepto de falla dúctil y la gestión de la seguridad e integridad estructural.
 
-- Análisis del evento ocurrido en Real Plaza Trujillo.
-- Fundamentos del diseño dúctil y su relevancia.
-- Comparación con normativas internacionales (AISC 341, Eurocódigo 8).
-- Casos internacionales de colapsos estructurales (no sísmicos).
-- Reflexiones normativas y propuestas de mejora para el Perú.
+---
 
-## Estructura del Proyecto
+## 🌐 Ver la Presentación Interactiva en Vivo:
+
+👉 [Accede aquí a la presentación interactiva sobre el Colapso del Real Plaza Trujillo](https://EdwardVasquezM.github.io/Colapso-Real-Plaza-Trujillo/)
+
+---
+
+## 📂 Estructura del Repositorio
 
 ```
-blog/
-├── index.html                         # Presentación interactiva en HTML
-├── 1 Colapso en REal plaza Trujillo.jpeg
-├── Supermercado Maxima.jpeg
-├── abellón de Exposiciones en Katowice.jpeg
-├── Pasarelas del Hotel Hyatt Regency.jpeg
-└── Algo Centre Mall.jpeg
+/ (root)
+├── index.html                     # Presentación interactiva
+├── README.md                      # Este archivo
+├── /imagenes                      # Carpeta de imágenes utilizadas en la presentación
+│   └── 1 Colapso en Real plaza Trujillo.jpeg
+│   └── (otras imágenes)
 ```
 
-## Publicación en GitHub Pages
+---
 
-1. Sube el contenido de la carpeta `blog/` a tu repositorio de GitHub.
-2. Ve a **Settings** → **Pages**.
-3. En **Source**, selecciona la rama principal y la carpeta `/ (root)` o `/blog` si lo subes como subdirectorio.
-4. Accede a tu sitio a través de `https://EdwardVasquezM.github.io/<repositorio>`.
+## 📌 Sobre el Autor
 
-## Créditos
+**Edward Vásquez Morales**  
+Ingeniero Mecánico Estructural - Coordinador de Proyectos de Ingeniería  
+Especialista en Diseño y Análisis Estructural
 
-- Presentación elaborada por Edward Vásquez Morales.
-- Imágenes con fines educativos y de análisis técnico.
-- Normativa: RNE (Perú), AISC 341, Eurocódigo 8.
+✉️ Contacto: [e_vm@yahoo.com](mailto:e_vm@yahoo.com)
 
-**¡Contribuyamos a un futuro con edificaciones más seguras!**
+---
+
+## 📚 Referencias
+
+- Reglamento Nacional de Edificaciones (Perú)
+- AISC 341 – Seismic Provisions for Structural Steel Buildings
+- Eurocódigo 8 – Diseño de estructuras para resistencia sísmica
